@@ -4,7 +4,7 @@ from resource.hotel import Hoteis, Hotel
 from resource.usuario import User, UserRegister, UserLogin, UserLogout
 from flask_jwt_extended import JWTManager
 from blacklist import BLACKLIST
-import os
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///banco.db'
